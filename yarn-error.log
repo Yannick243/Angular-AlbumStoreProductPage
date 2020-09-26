@@ -1,0 +1,111 @@
+Arguments: 
+  C:\laragon\bin\nodejs\node-v12\node.exe C:\laragon\bin\nodejs\node-v12\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  E:\SOFTS\cmder_mini\bin;E:\SOFTS\cmder_mini\vendor\bin;E:\SOFTS\cmder_mini\vendor\conemu-maximus5\ConEmu\Scripts;E:\SOFTS\cmder_mini\vendor\conemu-maximus5;E:\SOFTS\cmder_mini\vendor\conemu-maximus5\ConEmu;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\src\flutter\bin;E:\SERVER\Sdk\tools;E:\SERVER\Sdk\platform-tools;E:\SERVER\Sdk\tools\bin;C:\laragon\bin\composer;C:\laragon\bin;C:\laragon\bin\apache\httpd-2.4.35-win64-VC15\bin;C:\laragon\bin\git\bin;C:\laragon\bin\git\cmd;C:\laragon\bin\git\mingw64\bin;C:\laragon\bin\git\usr\bin;C:\laragon\bin\laragon\utils;C:\laragon\bin\mysql\mysql-5.7.24-winx64\bin;C:\laragon\bin\nginx\nginx-1.16.0;C:\laragon\bin\ngrok;C:\laragon\bin\nodejs\node-v12;C:\laragon\bin\notepad++;C:\laragon\bin\php\php-7.4.2-Win32-vc15-x64;C:\laragon\bin\postgresql\postgresql-11.0-1\bin;C:\laragon\bin\putty;C:\laragon\bin\python\python-3.6.1;C:\laragon\bin\python\python-3.6.1\Scripts;C:\laragon\bin\redis\redis-x64-3.2.100;C:\laragon\bin\telnet;C:\laragon\usr\bin;C:\Users\Yannick\AppData\Local\Yarn\config\global\node_modules\.bin;C:\Users\Yannick\AppData\Roaming\Composer\vendor\bin;C:\Users\Yannick\AppData\Roaming\npm;C:\Users\Yannick\AppData\Local\Microsoft\WindowsApps;C:\Program Files\heroku\bin;C:\laragon\bin\git\cmd;C:\laragon\bin\git\mingw64\bin;C:\laragon\bin\git\usr\bin;E:\SOFTS\cmder_mini
+
+Yarn version: 
+  1.19.0
+
+Node version: 
+  12.5.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/rxjs/-/rxjs-5.5.6.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\laragon\bin\nodejs\node-v12\node_modules\yarn\lib\cli.js:141166:19)
+      at Object.onceWrapper (events.js:288:20)
+      at ClientRequest.emit (events.js:200:13)
+      at TLSSocket.emitRequestTimeout (_http_client.js:675:40)
+      at Object.onceWrapper (events.js:288:20)
+      at TLSSocket.emit (events.js:200:13)
+      at TLSSocket.Socket._onTimeout (net.js:434:8)
+      at listOnTimeout (internal/timers.js:531:17)
+      at processTimers (internal/timers.js:475:7)
+
+npm manifest: 
+  {
+    "name": "pluralsight-project-build-an-album-store-product-page-with-angular",
+    "version": "0.0.2",
+    "license": "MIT",
+    "scripts": {
+      "ng": "ng",
+      "start": "ng serve",
+      "build": "ng build",
+      "test": "./node_modules/.bin/mocha ./src/spec/mocha-specs --recursive --reporter spec",
+      "test:part2": "./node_modules/.bin/mocha ./src/spec/mocha-specs/part2/ --recursive --reporter spec",
+      "test:part3": "./node_modules/.bin/mocha ./src/spec/mocha-specs/part3/ --recursive --reporter spec",
+      "test:part4": "./node_modules/.bin/mocha ./src/spec/mocha-specs/part4/ --recursive --reporter spec",
+      "test:part5": "./node_modules/.bin/mocha ./src/spec/mocha-specs/part5/ --recursive --reporter spec",
+      "test:part6": "./node_modules/.bin/mocha ./src/spec/mocha-specs/part6/ --recursive --reporter spec",
+      "test:part7": "./node_modules/.bin/mocha ./src/spec/mocha-specs/part7/ --recursive --reporter spec",
+      "tutor-test": "./node_modules/.bin/mocha ./src/spec/mocha-specs --recursive --reporter json & ng test --config tutor-karma.conf.js --single-run",
+      "tutor-test:part2": "./node_modules/.bin/mocha ./src/spec/mocha-specs/part2/ --recursive --reporter json & ng test --config tutor-karma.conf.js --single-run --part part2",
+      "tutor-test:part3": "./node_modules/.bin/mocha ./src/spec/mocha-specs/part3/ --recursive --reporter json & ng test --config tutor-karma.conf.js --single-run --part part3",
+      "tutor-test:part4": "./node_modules/.bin/mocha ./src/spec/mocha-specs/part4/ --recursive --reporter json & ng test --config tutor-karma.conf.js --single-run --part part4",
+      "tutor-test:part5": "./node_modules/.bin/mocha ./src/spec/mocha-specs/part5/ --recursive --reporter json & ng test --config tutor-karma.conf.js --single-run --part part5",
+      "tutor-test:part6": "./node_modules/.bin/mocha ./src/spec/mocha-specs/part6/ --recursive --reporter json & ng test --config tutor-karma.conf.js --single-run --part part6",
+      "tutor-test:part7": "./node_modules/.bin/mocha ./src/spec/mocha-specs/part7/ --recursive --reporter json & ng test --config tutor-karma.conf.js --single-run --part part7",
+      "mocha-spec": "./node_modules/.bin/mocha ./src/spec/mocha-specs/ --reporter spec",
+      "mocha-json": "./node_modules/.bin/mocha ./src/spec/mocha-specs/ --reporter json",
+      "karma-spec": "ng test --config tutor-karma.conf.js --single-run",
+      "lint": "ng lint",
+      "e2e": "ng e2e"
+    },
+    "private": true,
+    "dependencies": {
+      "@angular/animations": "5.2.0",
+      "@angular/common": "5.2.0",
+      "@angular/compiler": "5.2.0",
+      "@angular/core": "5.2.0",
+      "@angular/forms": "5.2.0",
+      "@angular/http": "5.2.0",
+      "@angular/platform-browser": "5.2.0",
+      "@angular/platform-browser-dynamic": "5.2.0",
+      "@angular/router": "5.2.0",
+      "core-js": "2.4.1",
+      "rxjs": "5.5.6",
+      "zone.js": "0.8.12"
+    },
+    "devDependencies": {
+      "@angular/cli": "1.6.5",
+      "@angular/compiler-cli": "5.2.0",
+      "@angular/language-service": "5.2.0",
+      "@phenomnomnominal/tsquery": "2.1.1",
+      "@types/jasmine": "2.8.3",
+      "@types/jasminewd2": "2.0.2",
+      "@types/node": "6.0.60",
+      "bootstrap": "3.3.7",
+      "chai": "4.0.1",
+      "cheerio": "1.0.0-rc.2",
+      "codelyzer": "4.0.1",
+      "cssom": "0.3.0",
+      "jasmine-core": "2.8.0",
+      "jasmine-spec-reporter": "4.2.1",
+      "jasmine2-custom-message": "0.8.2",
+      "karma": "2.0.0",
+      "karma-chrome-launcher": "2.2.0",
+      "karma-cli": "1.0.1",
+      "karma-coverage-istanbul-reporter": "1.2.1",
+      "karma-jasmine": "1.1.0",
+      "karma-jasmine-html-reporter": "0.2.2",
+      "karma-nightmare": "0.4.13",
+      "karma-spec-reporter": "0.0.31",
+      "karma-structured-json-reporter": "1.0.0",
+      "minimist": "1.2.0",
+      "mocha": "3.4.2",
+      "parse5": "5.1.0",
+      "protractor": "5.1.2",
+      "ts-node": "4.1.0",
+      "tslint": "5.9.1",
+      "typescript": "2.5.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
